@@ -1,8 +1,19 @@
-*{
+* {
     margin: 0;
 }
+
 body {
     font-family: 'Overpass', sans-serif;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 82%;
+
+}
+
+.wrapper {
+    width: 90%;
 }
 
 .header_info h1 {
@@ -12,7 +23,7 @@ body {
     font-size: 75px;
 }
 
-.header{
+.header {
     background: #1f1f1f url(../img/Background.jpg);
     background-size: cover;
     display: flex;
@@ -31,19 +42,251 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 .header_button {
+    margin: 33px 0px 0px 0px;
     display: flex;
 }
 
-.dark  {
-    color: #1f1f1f;
-    text-decoration:none;
+.dark {
+
+    font-weight: 400;
+    font-family: "Overpass";
+    text-align: center;
+    color: #8bd976;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 17px;
+    border: 3px solid #8bd976;
+    text-decoration: none;
 }
 
-.light   {
-    color: #8bd975;
-    text-decoration:none;
+.light {
+    font-weight: 400;
+    font-family: "Overpass";
+    text-align: center;
+    color: #8bd976;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 17px;
+    border: 3px solid #8bd976;
 }
-.image{
+
+.light:hover {
+    color: #1f1f1f;
+    background-color: #8bd976;
+    border: 3px solid #8bd976;
+}
+
+.dark:hover {
+    color: #1f1f1f;
+    background-color: #8bd976;
+    border: 3px solid #8bd976;
+}
+
+.image {
     padding: 50px;
+}
+
+.data {
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.data p {
+    font-size: 14px;
+    line-height: 12px;
+    color: #e5e5e5;
+    font-weight: 300;
+    font-family: "Overpass";
+
+}
+
+.data h2 {
+    margin: 20px 0px;
+    color: #8bd876;
+}
+
+.data1,
+.data2,
+.data3,
+.data4,
+.data1 p,
+.data2 p,
+.data3 p,
+.data4 p {
+    width: 50%;
+}
+
+.main_tour p {
+    margin-left: 185px;
+    width: 45%;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Overpass";
+    text-align: left;
+}
+
+.tour {
+    display: flex;
+}
+
+.tour {
+    background-image: url(../img/Background.svg);
+    background-size: cover;
+}
+
+.main_tour h2 {
+    font-family: "Overpass";
+    padding: 230px 0px 41px 185px;
+    width: 90%;
+    font-size: 79px;
+    color: #000000;
+    font-weight: 400;
+}
+
+.main_tour p {
+    width: 70%;
+}
+
+.tour_info h2 {
+    font-size: 35px;
+    line-height: 6px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Overpass";
+    text-align: left;
+}
+
+.tour_info {
+    margin: 260px 280px;
+}
+
+.lower {
+    margin-top: 100px;
+
+}
+
+.lower h2 {
+    margin-bottom: 20px;
+}
+
+.upper h2 {
+    margin-bottom: 20px;
+}
+
+.tour_info p {
+    width: 100%;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Overpass";
+    text-align: left;
+}
+
+hr {
+    margin-top: 40px;
+    margin-bottom: 100px;
+    width: 446px;
+    background-color: #000000;
+    border: 1px solid #000000;
+}
+
+.top {
+    background-image: url(../img/Background_2.jpg);
+    background-size: cover;
+    padding: 100px;
+}
+
+.top h2 {
+    margin: 180px 0px 50px 0px;
+    font-size: 79px;
+    line-height: 13px;
+    color: #8bd876;
+    font-weight: 400;
+    font-family: "Overpass";
+    text-align: center;
+}
+
+.top_main p {
+    font-size: 14px;
+    line-height: 19px;
+    color: #e5e5e5;
+    font-weight: 300;
+    font-family: "Overpass";
+    text-align: center;
+
+}
+figcaption{
+    display: flex;
+}
+figure .clock{
+    padding: 34px 0px 0px 160px;
+}
+figure ul {
+    list-style: none;
+    font-size: 14px;
+    line-height: 19px;
+    color: #e5e5e5;
+    font-weight: 300;
+    font-family: "Overpass";
+
+}
+
+figcaption h3 {
+    font-size: 35px;
+    line-height: 6px;
+    color: #8bd876;
+    font-weight: 400;
+    font-family: "Overpass";
+    text-align: left;
+}
+
+figcaption p {
+    font-size: 17px;
+    line-height: 22px;
+    color: #8bd976;
+    font-weight: 400;
+    font-family: "Overpass";
+}
+
+figcaption ul {
+    font-size: 14px;
+    line-height: 19px;
+    color: #e5e5e5;
+    font-weight: 300;
+    font-family: "Overpass";
+}
+
+figure h3 {
+    padding: 38px 0px 16px 0px;
+}
+
+.above {
+    display: flex;
+}
+
+.below {
+    display: flex;
+}
+
+.rookies {
+    padding: 100px 0px 70px 0px;
+}
+
+.violet {
+    padding: 100px 132px 70px 50px;
+}
+
+.punk {
+    padding: 62px 0px 70px 0px;
+}
+
+.rock {
+    padding: 62px 0px 70px 50px;
 }
