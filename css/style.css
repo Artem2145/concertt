@@ -200,34 +200,44 @@ hr {
 .top {
     background-image: url(../img/Background_2.jpg);
     background-size: cover;
-    padding: 100px;
+    padding: 1%;
+}
+.top{
+    padding-left: 180px;
 }
 
 .top h2 {
+    padding-left: 170px;
     margin: 180px 0px 50px 0px;
     font-size: 79px;
     line-height: 13px;
     color: #8bd876;
     font-weight: 400;
     font-family: "Overpass";
-    text-align: center;
+}
+.top_main{
+    padding-left: 90px;
 }
 
 .top_main p {
+    padding-left: 220px;
+    width: 40%;
     font-size: 14px;
     line-height: 19px;
     color: #e5e5e5;
     font-weight: 300;
     font-family: "Overpass";
-    text-align: center;
 
 }
-figcaption{
+
+figcaption {
     display: flex;
 }
-figure .clock{
+
+figure .clock {
     padding: 34px 0px 0px 160px;
 }
+
 figure ul {
     list-style: none;
     font-size: 14px;
@@ -289,4 +299,57 @@ figure h3 {
 
 .rock {
     padding: 62px 0px 70px 50px;
+}
+
+.whats {
+    background-image: url(../img/Background_main_2.jpg);
+    background-size: cover;
+}
+
+.whats_main {
+    display: flex;
+}
+
+.whats img {
+    padding: 160px 80px 160px 90px;
+}
+
+.whats_main h2 {
+    width: 60%;
+    font-size: 79px;
+    line-height: 77px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Overpass";
+    text-align: left;
+}
+
+.aa {
+    font-size: 1px;
+    color: #8bd975;
+    padding: 7px 90px;
+    border-radius: 10px;
+    background-color: #8bd876;
+    border: 3px solid #000000;
+}
+.pp {
+    font-size: 1px;
+    color: #8bd975;
+    padding: 7px 120px;
+    border-radius: 10px;
+    background-color: #8bd876;
+    border: 3px solid #000000;
+}
+
+.whats_main p {
+    width: 70%;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Overpass";
+    text-align: left;
+}
+.whats_about{
+    margin: 250px 0px 0px 0px;
 }
