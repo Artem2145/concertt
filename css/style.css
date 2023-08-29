@@ -2,21 +2,22 @@
     margin: 0;
 }
 
-body {
-    font-family: 'Overpass', sans-serif;
-}
-
 .wrapper {
     margin: 0 auto;
     width: 82%;
 
 }
 
-.wrapper {
-    width: 90%;
+h2 {
+    font-size: 75px;
 }
 
-.header_info h1 {
+body {
+    font-family: 'Overpass', sans-serif;
+    overflow-x: hidden;
+}
+
+.header-info h1 {
     color: #8bd876;
     margin: 0;
     font-weight: 400;
@@ -26,330 +27,1001 @@ body {
 .header {
     background: #1f1f1f url(../img/Background.jpg);
     background-size: cover;
-    display: flex;
-    padding: 131px 202px;
+    padding: 220px 0px 160px 0;
 }
 
-.header_info p {
-    width: 80%;
+.header .wrapper {
+    display: flex;
+}
+
+.header-info p {
     color: #fff;
     font-size: 14px;
     line-height: 19px;
+    padding-bottom: 30px;
 }
 
-.header_info {
+.data p {
+    width: 80%;
+}
+
+.data h3 {
+    padding: 30px 0px;
+    font-size: 35px;
+}
+
+.data1,
+.data2 {
+    position: relative;
+}
+
+.data1:before,
+.data2:before {
+    content: "";
+    position: absolute;
+    border: 3px solid #8bd976;
+    width: 105px;
+    height: 15px;
+    border-radius: 20px;
+    top: -40px;
+}
+
+.data3,
+.data4 {
+    position: relative;
+}
+
+.data3:before,
+.data4:before {
+    content: "";
+    position: absolute;
+    border: 3px solid #8bd976;
+    width: 105px;
+    height: 15px;
+    border-radius: 20px;
+    bottom: -60px;
+}
+
+.header-info {
     padding: 70px 20px;
     display: flex;
     flex-direction: column;
 }
 
-.header_button {
-    margin: 33px 0px 0px 0px;
-    display: flex;
-}
 
-.dark {
 
-    font-weight: 400;
-    font-family: "Overpass";
-    text-align: center;
-    color: #8bd976;
-    text-decoration: none;
-    padding: 5px;
-    border-radius: 17px;
-    border: 3px solid #8bd976;
-    text-decoration: none;
-}
-
-.light {
-    font-weight: 400;
-    font-family: "Overpass";
-    text-align: center;
-    color: #8bd976;
-    text-decoration: none;
-    padding: 5px;
-    border-radius: 17px;
-    border: 3px solid #8bd976;
-}
-
-.light:hover {
+.schedules {
     color: #1f1f1f;
-    background-color: #8bd976;
-    border: 3px solid #8bd976;
+    text-decoration: none;
+    border: 3px;
+    border-radius: 13px;
+    text-decoration: none;
+    color: #000;
+    padding: 1.5px;
+    background-color: #8bd975;
+    border-radius: 17px;
+    padding: 3px 8px;
 }
 
-.dark:hover {
-    color: #1f1f1f;
-    background-color: #8bd976;
-    border: 3px solid #8bd976;
+.learn-more {
+    color: #8bd975;
+    text-decoration: none;
+    border: 2px solid #8bd975;
+    border-radius: 17px;
+    padding: 3px 8px;
+    text-decoration: none;
+    background-color: transparent;
+    margin-top: 15px;
+
 }
 
-.image {
-    padding: 50px;
+.img {
+    padding: 55px;
 }
 
 .data {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
 
+    color: #fff;
+    align-items: center;
+    align-content: flex-start;
+    align-self: center;
 
 }
 
-.data p {
-    font-size: 14px;
-    line-height: 12px;
-    color: #e5e5e5;
-    font-weight: 300;
-    font-family: "Overpass";
-
-}
-
-.data h2 {
-    margin: 20px 0px;
+.data h3 {
     color: #8bd876;
 }
 
 .data1,
 .data2,
 .data3,
-.data4,
-.data1 p,
-.data2 p,
-.data3 p,
-.data4 p {
+.data4 {
     width: 50%;
 }
 
-.main_tour p {
-    margin-left: 185px;
-    width: 45%;
-    font-size: 14px;
-    line-height: 19px;
-    color: #000000;
-    font-weight: 300;
-    font-family: "Overpass";
-    text-align: left;
-}
-
 .tour {
-    display: flex;
-}
-
-.tour {
-    background-image: url(../img/Background.svg);
+    background-image: url(../img/background_first.jpg);
     background-size: cover;
 }
 
-.main_tour h2 {
-    font-family: "Overpass";
-    padding: 230px 0px 41px 185px;
-    width: 90%;
+.tour .wrapper {
+    display: flex;
+    column-gap: 140px;
+    padding: 270px 0 220px 0;
+    align-items: center;
+}
+
+.main-tour {
+    display: inline-block;
+    width: 50%;
+
+}
+
+.main-tour h2 {
     font-size: 79px;
-    color: #000000;
-    font-weight: 400;
 }
 
-.main_tour p {
-    width: 70%;
+.tour-about {
+    width: 50%;
 }
 
-.tour_info h2 {
+.tour-about h2 {
     font-size: 35px;
-    line-height: 6px;
-    color: #000000;
-    font-weight: 400;
-    font-family: "Overpass";
-    text-align: left;
-}
-
-.tour_info {
-    margin: 260px 280px;
-}
-
-.lower {
-    margin-top: 100px;
-
-}
-
-.lower h2 {
-    margin-bottom: 20px;
-}
-
-.upper h2 {
-    margin-bottom: 20px;
-}
-
-.tour_info p {
-    width: 100%;
-    font-size: 14px;
-    line-height: 19px;
-    color: #000000;
-    font-weight: 300;
-    font-family: "Overpass";
-    text-align: left;
 }
 
 hr {
-    margin-top: 40px;
-    margin-bottom: 100px;
-    width: 446px;
-    background-color: #000000;
-    border: 1px solid #000000;
+    border: 1.5px solid #000;
+    margin: 40px 0;
 }
 
-.top {
-    background-image: url(../img/Background_2.jpg);
-    background-size: cover;
-    padding: 1%;
-}
-.top{
-    padding-left: 180px;
+.artists {
+    background-image: url(../img/background_three.jpg);
 }
 
-.top h2 {
-    padding-left: 170px;
-    margin: 180px 0px 50px 0px;
-    font-size: 79px;
-    line-height: 13px;
-    color: #8bd876;
-    font-weight: 400;
-    font-family: "Overpass";
-}
-.top_main{
-    padding-left: 90px;
-}
-
-.top_main p {
-    padding-left: 220px;
-    width: 40%;
-    font-size: 14px;
-    line-height: 19px;
-    color: #e5e5e5;
-    font-weight: 300;
-    font-family: "Overpass";
-
-}
-
-figcaption {
+.figure-rock {
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
 }
 
-figure .clock {
-    padding: 34px 0px 0px 160px;
+.artists h2 {
+
+    text-align: center;
+    color: #8bd876;
+    font-size: 79px;
+    padding-top: 177px;
 }
 
-figure ul {
+.artists p {
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+
+.artists h3 {
+    color: #8bd876;
+}
+
+.top-artists {
+    text-align: center;
+    color: #fff;
+    padding-bottom: 113px;
+    width: 45%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.artists li {
+    color: #fff;
     list-style: none;
-    font-size: 14px;
-    line-height: 19px;
-    color: #e5e5e5;
-    font-weight: 300;
-    font-family: "Overpass";
+}
 
+.figure-rock figure {
+    width: 45%;
+}
+
+.figure-rock figure img {
+    width: 100%;
+}
+
+.figure-rock p {
+    color: #8bd876;
+}
+
+.figure-rock figcaption {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px 0px 85px 0;
 }
 
 figcaption h3 {
-    font-size: 35px;
-    line-height: 6px;
-    color: #8bd876;
-    font-weight: 400;
-    font-family: "Overpass";
-    text-align: left;
+    font-size: 30px;
 }
 
-figcaption p {
-    font-size: 17px;
-    line-height: 22px;
-    color: #8bd976;
-    font-weight: 400;
-    font-family: "Overpass";
+.whats-main {
+    background-image: url(../img/background_four.jpg);
+
+    padding: 20px;
 }
 
-figcaption ul {
-    font-size: 14px;
-    line-height: 19px;
-    color: #e5e5e5;
-    font-weight: 300;
-    font-family: "Overpass";
-}
-
-figure h3 {
-    padding: 38px 0px 16px 0px;
-}
-
-.above {
+.whats-main .wrapper {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 80px;
 }
 
-.below {
-    display: flex;
+.whats-main {
+    padding: 180px 0;
 }
 
-.rookies {
-    padding: 100px 0px 70px 0px;
-}
-
-.violet {
-    padding: 100px 132px 70px 50px;
-}
-
-.punk {
-    padding: 62px 0px 70px 0px;
-}
-
-.rock {
-    padding: 62px 0px 70px 50px;
-}
-
-.whats {
-    background-image: url(../img/Background_main_2.jpg);
-    background-size: cover;
-}
-
-.whats_main {
-    display: flex;
-}
-
-.whats img {
-    padding: 160px 80px 160px 90px;
-}
-
-.whats_main h2 {
-    width: 60%;
+.whats-main h2 {
     font-size: 79px;
-    line-height: 77px;
-    color: #000000;
-    font-weight: 400;
-    font-family: "Overpass";
-    text-align: left;
 }
 
-.aa {
-    font-size: 1px;
-    color: #8bd975;
-    padding: 7px 90px;
-    border-radius: 10px;
-    background-color: #8bd876;
-    border: 3px solid #000000;
-}
-.pp {
-    font-size: 1px;
-    color: #8bd975;
-    padding: 7px 120px;
-    border-radius: 10px;
-    background-color: #8bd876;
-    border: 3px solid #000000;
+.whats-main p {
+    padding-bottom: 30px;
 }
 
-.whats_main p {
-    width: 70%;
-    font-size: 14px;
-    line-height: 19px;
-    color: #000000;
-    font-weight: 300;
-    font-family: "Overpass";
-    text-align: left;
+.dark {
+    border: 3px solid #222;
+    border-radius: 13px;
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+    background-color: #222;
+    margin-right: 30px;
+    border-radius: 17px;
+    padding: 3px 8px;
 }
-.whats_about{
-    margin: 250px 0px 0px 0px;
+
+.white {
+    text-decoration: none;
+    border: 3px solid #000;
+    border-radius: 13px;
+    text-decoration: none;
+    color: #000;
+    background-color: #8bd975;
+    border-radius: 17px;
+    padding: 3px 8px;
 }
+
+.feature {
+    background-image: url(../img/background_five.jpg);
+    display: flex;
+
+}
+
+.text {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 68px;
+}
+
+.text p {
+    width: 30%;
+    color: #fff;
+    text-align: right;
+    margin: 10px;
+}
+
+.introducing p {
+    width: 87%;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+.main-feature {
+    display: flex;
+    align-items: center;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 35%;
+}
+
+.time time {
+    color: #8bd876;
+    font-size: 35px;
+    margin: 20px;
+}
+
+.time p {
+    color: #fff;
+    padding-bottom: 116px;
+}
+
+.feature h2 {
+    font-size: 79px;
+    color: #8bd876;
+}
+
+.feature a {
+    color: #212121;
+    border: 3px;
+    border-radius: 13px;
+    text-decoration: none;
+    padding: 1.5px;
+    background-color: #8bd975;
+    border-radius: 17px;
+    padding: 3px 8px;
+}
+
+.shows {
+    background-image: url(../img/backroundourshows.jpg);
+    display: flex;
+}
+
+.shows h3 {
+    font-size: 35px;
+}
+
+.year {
+    padding-top: 100px;
+}
+
+.shows-data ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.year,
+.show {
+    text-align: center;
+}
+
+.shows li {
+    list-style: none;
+    width: 30%;
+}
+
+.shows p {
+    padding-bottom: 24px;
+}
+
+.shows h2 {
+    padding-bottom: 88px;
+}
+
+.shows a {
+    display: inline-block;
+    border: 3px solid #212121;
+    border-radius: 13px;
+    text-decoration: none;
+    color: #8bd975;
+    background-color: #212121;
+    margin-bottom: 88px;
+    border-radius: 17px;
+    padding: 3px 8px;
+}
+
+.merch {
+    background-image: url(/img/background_seven.jpg);
+    padding-bottom: 126px;
+    display: flex;
+    padding-top: 115px;
+
+}
+
+.merch figure {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.merch figcaption {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 55px 24px;
+    width: 100%;
+}
+
+.merch-img {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 112px;
+}
+
+.merch-img img {
+    width: 100%;
+}
+
+.merch h3 {
+    font-size: 35px;
+
+}
+
+.merch h2 {
+    color: #8bd975;
+}
+
+.merch p {
+    width: 55%;
+    margin: 0 auto;
+    color: #fff;
+    padding-bottom: 67px;
+}
+
+.merch h2,
+.merch p {
+    text-align: center;
+}
+
+.merch a {
+    text-decoration: none;
+    border: 3px solid #212121;
+    border-radius: 13px;
+    text-decoration: none;
+    color: #8bd876;
+    background-color: #212121;
+    border-radius: 17px;
+    padding: 3px 8px;
+}
+
+.merch-img figcaption {
+    background: #8bd975;
+}
+
+.footer .wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer {
+    background-image: url(/img/rectangle_eight.jpg);
+}
+
+.the-company,
+.our-artists,
+.legal {
+    width: 30%;
+}
+
+.the-company h3 {
+    padding-top: 40px;
+    font-size: 35px;
+}
+
+.our-artists h3 {
+    padding-top: 40px;
+    font-size: 35px;
+}
+
+.legal h3 {
+    font-size: 35px;
+    padding-top: 40px;
+}
+
+footer h4 {
+    font-size: 17px;
+    padding: 41px 0px;
+
+}
+
+.footer li {
+    list-style: none;
+}
+
+.footer ul {
+    padding: 0;
+}
+
+.whats-button a {
+    display: inline-block;
+}
+
+@media screen and (max-width:1360px) {
+    .header .img {
+        padding: 30px;
+
+    }
+
+    .header h1 {
+        font-size: 50px;
+    }
+
+    .header-button {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .header-info {
+        padding: 70px 0px;
+    }
+}
+
+@media screen and (max-width:1240px) {
+
+    .the-company,
+    .our-artists,
+    .the-company {
+        width: 35%;
+
+    }
+
+    .data,
+    .header-info,
+    .img {
+        width: 40%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width:1180px) {
+
+    .merch figcaption h3 {
+        font-size: 25px;
+    }
+
+    .the-company,
+    .our-artists,
+    .the-company {
+        width: 30%;
+
+    }
+
+    .introducing h2 {
+        font-size: 65px;
+    }
+
+    .main-content h2 {
+        font-size: 65px;
+    }
+}
+
+@media screen and (max-width:970px) {
+    .data h3 {
+        font-size: 25px;
+
+    }
+
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .img img {
+        width: 300px;
+    }
+
+    .img-new img {
+        width: 450px;
+    }
+
+    .header .wrapper {
+        width: 90%;
+    }
+
+    .data {
+        font-size: 15px;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+
+    }
+
+    .whats-main h2 {
+        font-size: 80px;
+    }
+
+    .data1:before,
+    .data2:before,
+    .data3:before,
+    .data4:before {
+        content: "";
+        position: absolute;
+        border: 3px solid transparent;
+        width: 105px;
+        height: 15px;
+        border-radius: 20px;
+        bottom: -60px;
+    }
+
+    @media screen and (max-width:860px) {
+        .boy img {
+            width: 400px;
+
+        }
+
+        .feature h2 {
+            font-size: 50px;
+        }
+
+        .whats-main h2 {
+            font-size: 50px;
+        }
+
+        .whats-button a {
+            margin: 10px;
+        }
+
+        .merch figcaption h3 {
+            width: 100%;
+        }
+
+        .figure-rock h3 {
+            font-size: 23px;
+        }
+
+        .header .wrapper {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .violet-gears h3 {
+            font-size: 22px;
+
+        }
+
+        .merch figcaption {
+            flex-wrap: wrap;
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        .time p {
+            font-size: 15px;
+        }
+
+        .top-artists {
+            width: 100%;
+        }
+
+        .figure-rock figcaption {
+            flex-wrap: wrap;
+        }
+
+        .merch figcaption {
+            flex-wrap: wrap;
+        }
+
+        .merch figcaption h3 {
+            font-size: 20px;
+        }
+
+        .figure-rock li {
+            font-size: 13px;
+        }
+
+        .boy img {
+            width: 320px;
+        }
+
+        .whats-main .wrapper {
+            width: 90%;
+        }
+
+        .img-new img {
+            width: 360px;
+        }
+
+        .whats-main p {
+            font-size: 15px;
+        }
+
+        .tour h2 {
+            font-size: 40px;
+        }
+
+        .tour-data h2 {
+            font-size: 30px;
+        }
+
+        .tour-data p {
+            font-size: 13px;
+        }
+
+        .footer h3 {
+            font-size: 25px;
+        }
+
+        .wrapper {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .shows-data li {
+            width: 45%;
+        }
+
+        .shows {
+            background-size: 500%;
+            background-position: center;
+        }
+
+        .top-artists h2 {
+            width: 100%;
+            font-size: 60px;
+        }
+
+        .artists {
+            background-size: 400%;
+            background-position: center;
+
+        }
+
+        .tour {
+            background-size: 400%;
+            background-position: center;
+
+        }
+
+        .tour-about {
+            padding-top: 100px;
+        }
+
+        .main-feature {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .figure-rock figure {
+            width: 100%;
+        }
+
+        .merch figure {
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width:600px) {
+        .shows-data h3 {
+            font-size: 25px;
+        }
+
+        .shows-data p {
+            font-size: 15px;
+        }
+
+        .shows {
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .merch figcaption {
+            flex-wrap: wrap;
+        }
+
+        .merch figcaption h3 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .boy img {
+            width: 300px;
+        }
+
+        .feature h2 {
+            font-size: 35px;
+
+        }
+
+        .feature p {
+            font-size: 15px;
+        }
+
+        .figure-rock {
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+
+        .footer,
+        .wrapper {
+            text-align: center;
+        }
+
+        .the-company,
+        .our-artists,
+        .legal {
+            width: 100%;
+        }
+
+        .tour .wrapper {
+            width: 100%;
+        }
+
+        .tour {
+            background-size: 700%;
+        }
+
+        .merch figcaption a {
+            width: 100%;
+        }
+
+        .introducing {
+            margin-bottom: 100px;
+        }
+
+        .header .img {
+            padding: 0;
+            width: 100%;
+            justify-content: center
+        }
+
+        .header-button a {
+            width: 100%;
+        }
+
+        .text p {
+            width: 100%;
+        }
+
+    }
+
+    @media screen and (max-width:400px) {
+        .figure-rock figcaption {
+            justify-content: center;
+        }
+
+        .figure-rock ul {
+            padding-right: 50px;
+        }
+
+        .header-info {
+            width: 100%;
+        }
+
+        .top-artists {
+            width: 100%;
+        }
+
+        .text p {
+            width: 100%;
+        }
+
+        .introducing a {
+            width: 100%;
+        }
+
+        .tour {
+            background-size: 900%;
+            background-position: center;
+        }
+
+        .img-new img {
+            width: 300px;
+        }
+
+        .header {
+            background-size: 900%;
+        }
+
+        .whats-main {
+            background-position: center;
+            background-size: 900%;
+        }
+
+        .whats-new h2 {
+            font-size: 40px;
+        }
+
+        .time img {
+            display: none;
+            visibility: hidden;
+        }
+
+        .time p {
+            font-size: 15px;
+        }
+
+        .whats-main p {
+            font-size: 15px;
+        }
+
+        .merch h2 {
+            font-size: 50px;
+        }
+
+        .merch p {
+            width: 100%;
+        }
+
+        .shows h2 {
+            font-size: 55px;
+        }
+
+        .year h3 {
+            font-size: 35px;
+        }
+
+        .shows-data li {
+            width: 100%;
+        }
+
+        .header-button a {
+            width: 90%;
+        }
+
+        .img img {
+            width: 250px;
+        }
+
+        .main-tour {
+            width: 90%;
+        }
+
+        .tour-about {
+            width: 90%;
+        }
+
+        .feature .wrapper {
+            width: 100%;
+        }
+
+        .introducing p {
+            width: 100%;
+        }
+
+        .time time {
+            padding-left: 70px;
+            margin: 0;
+        }
+
+        .time {
+            padding-left: 40px;
+            width: 70%;
+        }
+
+        .text p {
+
+            width: 80%;
+            text-align: left;
+
+        }
+
+        .text img {
+            display: none;
+            visibility: hidden;
+        }
+
+        .introducing p {
+            width: 75%;
+            padding-left: 40px;
+
+        }
+
+        .feature {
+            background-size: 400%;
+            background-position: center;
+        }
+        .data4::before{
+            display: none;
+            visibility: hidden;
+        }
+        .data1::before{
+            display: none;
+            visibility: hidden;
+        }
+        .data2::before{
+            display: none;
+            visibility: hidden;
+        }
+        .data3::before{
+            display: none;
+            visibility: hidden;
+        }
+    }
