@@ -544,9 +544,6 @@ footer h4 {
     .header-info {
         padding: 70px 0px;
     }
-}
-
-@media screen and (max-width:1240px) {
 
     .the-company,
     .our-artists,
@@ -568,10 +565,6 @@ footer h4 {
         flex-wrap: wrap;
     }
 
-}
-
-@media screen and (max-width:1180px) {
-
     .merch figcaption h3 {
         font-size: 25px;
     }
@@ -592,7 +585,9 @@ footer h4 {
     }
 }
 
-@media screen and (max-width:970px) {
+
+
+@media screen and (max-width:1024px) {
     .data h3 {
         font-size: 25px;
 
@@ -640,388 +635,432 @@ footer h4 {
         bottom: -60px;
     }
 
-    @media screen and (max-width:860px) {
-        .boy img {
-            width: 400px;
-
-        }
-
-        .feature h2 {
-            font-size: 50px;
-        }
-
-        .whats-main h2 {
-            font-size: 50px;
-        }
-
-        .whats-button a {
-            margin: 10px;
-        }
-
-        .merch figcaption h3 {
-            width: 100%;
-        }
-
-        .figure-rock h3 {
-            font-size: 23px;
-        }
-
-        .header .wrapper {
-            display: flex;
-            flex-wrap: wrap;
-        }
-
-        .violet-gears h3 {
-            font-size: 22px;
-
-        }
-
-        .merch figcaption {
-            flex-wrap: wrap;
-        }
-    }
-
-    @media screen and (max-width:768px) {
-        .time p {
-            font-size: 15px;
-        }
-
-        .top-artists {
-            width: 100%;
-        }
-
-        .figure-rock figcaption {
-            flex-wrap: wrap;
-        }
-
-        .merch figcaption {
-            flex-wrap: wrap;
-        }
-
-        .merch figcaption h3 {
-            font-size: 20px;
-        }
-
-        .figure-rock li {
-            font-size: 13px;
-        }
-
-        .boy img {
-            width: 320px;
-        }
-
-        .whats-main .wrapper {
-            width: 90%;
-        }
-
-        .img-new img {
-            width: 360px;
-        }
-
-        .whats-main p {
-            font-size: 15px;
-        }
-
-        .tour h2 {
-            font-size: 40px;
-        }
-
-        .tour-data h2 {
-            font-size: 30px;
-        }
-
-        .tour-data p {
-            font-size: 13px;
-        }
-
-        .footer h3 {
-            font-size: 25px;
-        }
-
-        .wrapper {
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        .shows-data li {
-            width: 45%;
-        }
-
-        .shows {
-            background-size: 500%;
-            background-position: center;
-        }
-
-        .top-artists h2 {
-            width: 100%;
-            font-size: 60px;
-        }
-
-        .artists {
-            background-size: 400%;
-            background-position: center;
-
-        }
-
-        .tour {
-            background-size: 400%;
-            background-position: center;
-
-        }
-
-        .tour-about {
-            padding-top: 100px;
-        }
-
-        .main-feature {
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        .figure-rock figure {
-            width: 100%;
-        }
-
-        .merch figure {
-            width: 100%;
-        }
-    }
-
-    @media screen and (max-width:600px) {
-        .shows-data h3 {
-            font-size: 25px;
-        }
-
-        .shows-data p {
-            font-size: 15px;
-        }
-
-        .shows {
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
-
-        .merch figcaption {
-            flex-wrap: wrap;
-        }
-
-        .merch figcaption h3 {
-            display: flex;
-            justify-content: center;
-        }
-
-        .boy img {
-            width: 300px;
-        }
-
-        .feature h2 {
-            font-size: 35px;
-
-        }
-
-        .feature p {
-            font-size: 15px;
-        }
-
-        .figure-rock {
-            display: flex;
-            flex-wrap: wrap;
-
-        }
-
-        .footer,
-        .wrapper {
-            text-align: center;
-        }
-
-        .the-company,
-        .our-artists,
-        .legal {
-            width: 100%;
-        }
-
-        .tour .wrapper {
-            width: 100%;
-        }
-
-        .tour {
-            background-size: 700%;
-        }
-
-        .merch figcaption a {
-            width: 100%;
-        }
-
-        .introducing {
-            margin-bottom: 100px;
-        }
-
-        .header .img {
-            padding: 0;
-            width: 100%;
-            justify-content: center
-        }
-
-        .header-button a {
-            width: 100%;
-        }
-
-        .text p {
-            width: 100%;
-        }
+    .boy img {
+        width: 400px;
 
     }
 
-    @media screen and (max-width:400px) {
-        .figure-rock figcaption {
-            justify-content: center;
-        }
-
-        .figure-rock ul {
-            padding-right: 50px;
-        }
-
-        .header-info {
-            width: 100%;
-        }
-
-        .top-artists {
-            width: 100%;
-        }
-
-        .text p {
-            width: 100%;
-        }
-
-        .introducing a {
-            width: 100%;
-        }
-
-        .tour {
-            background-size: 900%;
-            background-position: center;
-        }
-
-        .img-new img {
-            width: 300px;
-        }
-
-        .header {
-            background-size: 900%;
-        }
-
-        .whats-main {
-            background-position: center;
-            background-size: 900%;
-        }
-
-        .whats-new h2 {
-            font-size: 40px;
-        }
-
-        .time img {
-            display: none;
-            visibility: hidden;
-        }
-
-        .time p {
-            font-size: 15px;
-        }
-
-        .whats-main p {
-            font-size: 15px;
-        }
-
-        .merch h2 {
-            font-size: 50px;
-        }
-
-        .merch p {
-            width: 100%;
-        }
-
-        .shows h2 {
-            font-size: 55px;
-        }
-
-        .year h3 {
-            font-size: 35px;
-        }
-
-        .shows-data li {
-            width: 100%;
-        }
-
-        .header-button a {
-            width: 90%;
-        }
-
-        .img img {
-            width: 250px;
-        }
-
-        .main-tour {
-            width: 90%;
-        }
-
-        .tour-about {
-            width: 90%;
-        }
-
-        .feature .wrapper {
-            width: 100%;
-        }
-
-        .introducing p {
-            width: 100%;
-        }
-
-        .time time {
-            padding-left: 70px;
-            margin: 0;
-        }
-
-        .time {
-            padding-left: 40px;
-            width: 70%;
-        }
-
-        .text p {
-
-            width: 80%;
-            text-align: left;
-
-        }
-
-        .text img {
-            display: none;
-            visibility: hidden;
-        }
-
-        .introducing p {
-            width: 75%;
-            padding-left: 40px;
-
-        }
-
-        .feature {
-            background-size: 400%;
-            background-position: center;
-        }
-        .data4::before{
-            display: none;
-            visibility: hidden;
-        }
-        .data1::before{
-            display: none;
-            visibility: hidden;
-        }
-        .data2::before{
-            display: none;
-            visibility: hidden;
-        }
-        .data3::before{
-            display: none;
-            visibility: hidden;
-        }
+    .feature h2 {
+        font-size: 50px;
     }
+
+    .whats-main h2 {
+        font-size: 50px;
+    }
+
+    .whats-button a {
+        margin: 10px;
+    }
+
+    .merch figcaption h3 {
+        width: 100%;
+    }
+
+    .figure-rock h3 {
+        font-size: 23px;
+    }
+
+    .header .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .violet-gears h3 {
+        font-size: 22px;
+
+    }
+
+    .merch figcaption {
+        flex-wrap: wrap;
+    }
+
+
+
+    .boy img {
+        width: 400px;
+
+    }
+
+    .feature h2 {
+        font-size: 50px;
+    }
+
+    .whats-main h2 {
+        font-size: 50px;
+    }
+
+    .whats-button a {
+        margin: 10px;
+    }
+
+    .merch figcaption h3 {
+        width: 100%;
+    }
+
+    .figure-rock h3 {
+        font-size: 23px;
+    }
+
+    .header .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .violet-gears h3 {
+        font-size: 22px;
+
+    }
+
+    .merch figcaption {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .time p {
+        font-size: 15px;
+    }
+
+    .top-artists {
+        width: 100%;
+    }
+
+    .figure-rock figcaption {
+        flex-wrap: wrap;
+    }
+
+    .merch figcaption {
+        flex-wrap: wrap;
+    }
+
+    .merch figcaption h3 {
+        font-size: 20px;
+    }
+
+    .figure-rock li {
+        font-size: 13px;
+    }
+
+    .boy img {
+        width: 320px;
+    }
+
+    .whats-main .wrapper {
+        width: 90%;
+    }
+
+    .img-new img {
+        width: 360px;
+    }
+
+    .whats-main p {
+        font-size: 15px;
+    }
+
+    .tour h2 {
+        font-size: 40px;
+    }
+
+    .tour-data h2 {
+        font-size: 30px;
+    }
+
+    .tour-data p {
+        font-size: 13px;
+    }
+
+    .footer h3 {
+        font-size: 25px;
+    }
+
+    .wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .shows-data li {
+        width: 45%;
+    }
+
+    .shows {
+        background-size: 500%;
+        background-position: center;
+    }
+
+    .top-artists h2 {
+        width: 100%;
+        font-size: 60px;
+    }
+
+    .artists {
+        background-size: 400%;
+        background-position: center;
+
+    }
+
+    .tour {
+        background-size: 400%;
+        background-position: center;
+
+    }
+
+    .tour-about {
+        padding-top: 100px;
+    }
+
+    .main-feature {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .figure-rock figure {
+        width: 100%;
+    }
+
+    .merch figure {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .shows-data h3 {
+        font-size: 25px;
+    }
+
+    .shows-data p {
+        font-size: 15px;
+    }
+
+    .shows {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .merch figcaption {
+        flex-wrap: wrap;
+    }
+
+    .merch figcaption h3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .boy img {
+        width: 300px;
+    }
+
+    .feature h2 {
+        font-size: 35px;
+
+    }
+
+    .feature p {
+        font-size: 15px;
+    }
+
+    .figure-rock {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .footer,
+    .wrapper {
+        text-align: center;
+    }
+
+    .the-company,
+    .our-artists,
+    .legal {
+        width: 100%;
+    }
+
+    .tour .wrapper {
+        width: 100%;
+    }
+
+    .tour {
+        background-size: 700%;
+    }
+
+    .merch figcaption a {
+        width: 100%;
+    }
+
+    .introducing {
+        margin-bottom: 100px;
+    }
+
+    .header .img {
+        padding: 0;
+        width: 100%;
+        justify-content: center
+    }
+
+    .header-button a {
+        width: 100%;
+    }
+
+    .text p {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:425px) {
+    .figure-rock figcaption {
+        justify-content: center;
+    }
+
+    .figure-rock ul {
+        padding-right: 50px;
+    }
+
+    .header-info {
+        width: 100%;
+    }
+
+    .top-artists {
+        width: 100%;
+    }
+
+    .text p {
+        width: 100%;
+    }
+
+    .introducing a {
+        width: 100%;
+    }
+
+    .tour {
+        background-size: 900%;
+        background-position: center;
+    }
+
+    .img-new img {
+        width: 300px;
+    }
+
+    .header {
+        background-size: 900%;
+    }
+
+    .whats-main {
+        background-position: center;
+        background-size: 900%;
+    }
+
+    .whats-new h2 {
+        font-size: 40px;
+    }
+
+    .time img {
+        display: none;
+        visibility: hidden;
+    }
+
+    .time p {
+        font-size: 15px;
+    }
+
+    .whats-main p {
+        font-size: 15px;
+    }
+
+    .merch h2 {
+        font-size: 50px;
+    }
+
+    .merch p {
+        width: 100%;
+    }
+
+    .shows h2 {
+        font-size: 55px;
+    }
+
+    .year h3 {
+        font-size: 35px;
+    }
+
+    .shows-data li {
+        width: 100%;
+    }
+
+    .header-button a {
+        width: 90%;
+    }
+
+    .img img {
+        width: 250px;
+    }
+
+    .main-tour {
+        width: 90%;
+    }
+
+    .tour-about {
+        width: 90%;
+    }
+
+    .feature .wrapper {
+        width: 100%;
+    }
+
+    .introducing p {
+        width: 100%;
+    }
+
+    .time time {
+        padding-left: 70px;
+        margin: 0;
+    }
+
+    .time {
+        padding-left: 40px;
+        width: 70%;
+    }
+
+    .text p {
+
+        width: 80%;
+        text-align: left;
+
+    }
+
+    .text img {
+        display: none;
+        visibility: hidden;
+    }
+
+    .introducing p {
+        width: 75%;
+        padding-left: 40px;
+
+    }
+
+    .feature {
+        background-size: 400%;
+        background-position: center;
+    }
+
+    .data4::before {
+        display: none;
+        visibility: hidden;
+    }
+
+    .data1::before {
+        display: none;
+        visibility: hidden;
+    }
+
+    .data2::before {
+        display: none;
+        visibility: hidden;
+    }
+
+    .data3::before {
+        display: none;
+        visibility: hidden;
+    }
+}
